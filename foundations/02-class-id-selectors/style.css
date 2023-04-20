@@ -1,0 +1,21 @@
+* {
+	font-family: Verdana, "DejaVu Sans", sans-serif, sans-serif;
+}
+
+.oddNumbers {
+	background-color: rgb(197, 120, 120);
+}
+
+#secondElement {
+	color: rgb(29, 29, 194);
+	font-size: 32px;
+}
+
+.diffFont {
+	font-size: 24px;
+}
+
+#fourthElement {
+	background-color: rgb(73, 202, 86);
+	font-weight: 700;
+}
