@@ -1,27 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
+	min-height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 img {
-  width: 600px;
+	width: 600px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.buttons {
 }
 
 button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+	font-family: Roboto, sans-serif;
+	border: none;
+	border-radius: 8px;
+	background: #eee;
+	padding: 8px 16px;
 }
 
 input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-  margin-bottom: 16px;
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	padding: 8px 24px;
+	width: 400px;
+	margin-bottom: 16px;
+}
+
+.header,
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
+
+.footer {
+	background-color: #eee;
+	margin-top: auto;
+}
+
+/* This could have also been done in UL
+ */
+.right-links,
+.left-links {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+/* Also has a flex: 1 in the solutions but I dont know why */
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
